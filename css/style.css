@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', serif;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.header-img {
+    background-image: url(../kepek/header_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.myButton {
+    box-shadow: 5px 10px 11px -8px #276873;
+    background: linear-gradient(to bottom, #00cccc 5%, #00907f 100%);
+    background-color: #00cccc;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    padding: 9px 18px;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #3d768a;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #00907f 5%, #00cccc 100%);
+    background-color: #00907f;
+}
+
+footer li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Inter', serif;
+}
