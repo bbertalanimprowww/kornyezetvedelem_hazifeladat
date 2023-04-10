@@ -14,7 +14,7 @@ main {
 }
 
 .header-img {
-    background-image: url(../kepek/header_background.jpg);
+    background-image: url(../kepek/header.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -23,6 +23,13 @@ main {
     opacity: 90%;
     padding: 8px;
     background: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.highlight-warning {
+    opacity: 90%;
+    padding: 8px;
+    background: linear-gradient(to top left, #9d0303, #f08585);
+    color: white;
 }
 
 .card {

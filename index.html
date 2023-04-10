@@ -49,7 +49,7 @@
         <!-- navbar ends here -->
 
         <div class="masthead header-img text-white text-center d-flex justify-content-center p-3">
-            <div class="jumbotron masthead-content">
+            <div class="jumbotron masthead-content text-black">
                 <h1 class="my-4">'Cég' neve</h1>
                 <h3>Új technológiák a környezetvédelemért</h3>
                 <a class="btn myButton my-2" href="#">Link</a>
@@ -60,7 +60,7 @@
     <main>
         <section id=section-1 class="container-fluid bg-white">
             <div id="section_title">
-                <h2 class="display-5 fst-italic w-100 mt-5">Bevezetés</h2>
+                <h2 class="display-5 w-100 mt-5 text-center">Bevezetés</h2>
             </div>
             <div id="bevezetes" class="row">
                 <div class="col-lg-6">
@@ -117,90 +117,125 @@
             </div>
         </section>
 
-        <section id=section-2 class="container-fluid bg-white">
+        <section id="section-2" class="container-fluid bg-white">
             <div id="section_title">
-                <h2 class="display-5 fst-italic w-100 mt-5">Technológiák</h2>
+              <h2 class="display-5 fst-italic w-100 mt-5"><span class="highlight-warning">Problémák</span></h2>
+              <h3 class="w-100 mx-3 mb-5">Gondok amiket <span class="highlight-warning">a világunkban</span> okoz...</h3>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 my-4">
+                <img
+                  class="img-fluid rounded"
+                  src="kepek/rain.jpg"
+                  alt="Savas eső"
+                />
+              </div>
+              <div class="col-lg-8 my-4">
+                <!-- ikon -->
+                <i class="fa-solid fa-cloud-showers-heavy fa-2xl" style="color: #00908e"></i>
+                <h4 class="d-inline p-4">Savas esők</h4>
+                <p class="p-4">
+                    A savas esők komoly problémát jelentenek a környezet és az emberi egészség számára is. Amikor a savas anyagok a talajra és a víztestekbe kerülnek, azok károsítják a növényeket és az állatok élőhelyeit. Az erdei talajok savanyodása, valamint az édesvízi és tengeri élővilág pusztulása is bekövetkezhet. Emellett a savas esők hosszú távon az épületek és az infrastruktúra károsodását is okozhatják.
+                    Az emberi egészségre gyakorolt hatások is súlyosak lehetnek. A savas esők légszennyezést okoznak, ami a légzőrendszerre káros hatással van, és növelik a tüdő- és szívbetegségek kockázatát is. Emellett a savas esőkben található káros anyagok bekerülhetnek az élelmiszerláncba is, ami szintén egészségügyi problémákat okozhat.
+                </p>
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="col-lg-8 my-4">
+                <i
+                  class="fa-sharp fa-solid fa-bottle-water fa-2xl"
+                  style="color: #00908e"
+                ></i>
+                <h4 class="d-inline p-4">Mikroműanyagok</h4>
+                <p class="p-4">
+                    A mikroműanyagok problémája az, hogy ezek az apró darabok könnyen átjutnak az emberi bőrön, belélegezhetőek és lenyelhetőek. A műanyag mikroszemcsék az élelmiszerláncba is bejuthatnak, ha az állatok elfogyasztják azokat, vagy ha a halászati és mezőgazdasági termékeket műanyag szennyeződés éri.
+                    Ezek a műanyagdarabok nem bomlanak le, hanem csak a méretük csökken, amikor kitetik őket az időjárásnak és a környezetnek. Ennek eredményeként a mikroműanyagok szennyezik a tengereket, folyókat és tavakat, valamint a talajt és a levegőt is.
+                </p>
+              </div>
+              <div class="col-lg-4 my-4">
+                <img
+                  class="img-fluid rounded"
+                  src="kepek/plastic.jpg"
+                  alt="Mikroműanyagok"
+                />
+              </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/sunenergy.jpg" alt="Napenergia">
+                  <img
+                    class="img-fluid rounded"
+                    src="kepek/climatechange.jpg"
+                    alt="Klímaváltozás"
+                  />
                 </div>
                 <div class="col-lg-8 my-4">
-                    <!-- ikon -->
-                    <i class="fa-brands fa-pagelines fa-2xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Napenergia</h4>
-                    <p class="p-4">
-                        Az energiatermelés hatékony és fenntartható módja a napenergia felhasználása. Napenergia hasznosításával jelentősen csökkenthető a szén-dioxid-kibocsátás.
-                    </p>
+                  <!-- ikon -->
+                  <i class="fa-solid fa-temperature-arrow-up fa-2xl" style="color: #00908e"></i>
+                  <h4 class="d-inline p-4">Klímaváltozás</h4>
+                  <p class="p-4">
+                    A szén-dioxid-kibocsátás, amelyet a fosszilis üzemanyagok elégetése és az ipari tevékenységek okoznak, felgyorsítja a globális klímaváltozást. Az éghajlatváltozás számos hatást eredményez, többek között növekvő hőmérsékletet, tengerszint-emelkedést, szélsőséges időjárási eseményeket, élelmiszerhiányt és vízhiányt.
+                  </p>
                 </div>
-            </div>
-
-            <div class="row">
+              </div>
+      
+              <div class="row">
                 <div class="col-lg-8 my-4">
-                    <i class="fa-sharp fa-solid fa-seedling fa-xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Szélenergia</h4>
-                    <p class="p-4">
-                        A szélerőművek használata segít a szén-dioxid-kibocsátás csökkentésében, miközben az energiatermelés hatékony és fenntartható módja.
-                    </p>
+                  <i
+                    class="fa-sharp fa-solid fa-pills fa-2xl"
+                    style="color: #00908e"
+                  ></i>
+                  <h4 class="d-inline p-4">Egészségügyi hatások</h4>
+                  <p class="p-4">
+                    A légszennyezés, a talajszennyezés és a vízszennyezés negatív hatással lehet az emberek és az állatok egészségére. Az ilyen típusú szennyezés számos betegséget okozhat, például légzőszervi betegségeket, allergiákat, asztmát, rákot és fertőzéseket.
+                  </p>
                 </div>
                 <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/windenergy.jpg" alt="Szélenergia">
+                  <img
+                    class="img-fluid rounded"
+                    src="kepek/virus.jpg"
+                    alt="Vírus"
+                  />
                 </div>
-            </div>
-            <div class="row">
+              </div>
+              <div class="row">
                 <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/biogas.jpg" alt="Biogáz">
+                  <img
+                    class="img-fluid rounded"
+                    src="kepek/deforestation.jpg"
+                    alt="Erdőírtás"
+                  />
                 </div>
                 <div class="col-lg-8 my-4">
-                    <!-- ikon -->
-                    <i class="fa-brands fa-pagelines fa-2xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Biogáz</h4>
-                    <p class="p-4">
-                        Az organikus hulladékokból előállított biogáz hasznosítása segíti a szerves anyagok újrafelhasználását, és a biogáz használata tiszta és fenntartható energiaforrásként szolgálhat.
-                    </p>
+                  <!-- ikon -->
+                  <i class="fa-solid fa-tree fa-2xl" style="color: #00908e"></i>
+                  <h4 class="d-inline p-4">Biodiverzitás csökkenése</h4>
+                  <p class="p-4">
+                    A környezeti szennyezés veszélyezteti a növény- és állatvilág sokféleségét. A szennyezés, az erdőirtás és az élőhelyek pusztítása miatt sok faj veszélybe kerül, és akár kihalás fenyegeti őket.
+                  </p>
                 </div>
-            </div>
-            <div class="row">
+              </div>
+      
+              <div class="row">
                 <div class="col-lg-8 my-4">
-                    <i class="fa-sharp fa-solid fa-seedling fa-xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Vízvisszanyerés</h4>
-                    <p class="p-4">
-                        Az ipar és az otthoni felhasználás során keletkező szennyvizek feldolgozása és újrahasznosítása hatékony és környezetbarát megoldás lehet.
-                    </p>
+                  <i
+                    class="fa-sharp fa-solid fa-droplet-slash fa-xl"
+                    style="color: #00908e"
+                  ></i>
+                  <h4 class="d-inline p-4">Vízhiány</h4>
+                  <p class="p-4">
+                    A szennyezett víz, valamint az éghajlatváltozás okozta szélsőséges időjárási események miatt sok helyen nő a vízhiány problémája. Ez kihat a mezőgazdaságra, a városi területekre és az élelmiszertermelésre, valamint az emberek egészségére és életminőségére is.
+                  </p>
                 </div>
                 <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/waterrecycling.jpg.webp" alt="Vízvisszanyerés">
+                  <img
+                    class="img-fluid rounded"
+                    src="kepek/lackofwater.jpg"
+                    alt="Vízhiány"
+                  />
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/electriccar01.jpg" alt="Elektromosautó">
-                </div>
-                <div class="col-lg-8 my-4">
-                    <!-- ikon -->
-                    <i class="fa-brands fa-pagelines fa-2xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Elektromos autók</h4>
-                    <p class="p-4">
-                        Az elektromos autók használata lehetővé teszi a fosszilis üzemanyagok használatának csökkentését, miközben a csendes és tiszta közlekedést biztosít.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-8 my-4">
-                    <i class="fa-sharp fa-solid fa-seedling fa-xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Okos otthonok</h4>
-                    <p class="p-4">
-                        Az otthonok okos technológiákkal való felszerelése lehetővé teszi az energiafogyasztás optimalizálását és a környezeti hatások minimalizálását, miközben javítja az életminőséget és a kényelmet.
-                    </p>
-                </div>
-                <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/smarthome01.jpg" alt="Okosotthon">
-                </div>
-            </div>
-        </section>
-
-
+              </div>
+          </section>
 
         <section id=section-4 class="container-fluid bg-white">
             <div id="section_title">
