@@ -20,27 +20,30 @@
         <!-- navbar starts here -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid collapse navbar-collapse">
-              <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
-              </ul>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <!-- navbar ends here -->
@@ -57,76 +60,77 @@
     <main>
         <section id=section-1 class="container-fluid bg-white">
             <div id="section_title">
-                <h2 class="w-100 mt-5">Bevezetés</h2>
+                <h2 class="display-5 fst-italic w-100 mt-5">Bevezetés</h2>
             </div>
             <div id="bevezetes" class="row">
-              <div class="col-lg-6">
-                <!-- Carousel starts -->
-                <div id="demo1" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Indicators/dots -->
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                <div class="col-lg-6">
+                    <!-- Carousel starts -->
+                    <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                        </div>
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item">
+                                <img src="kepek/pollution1.jpg" alt="pollution1" class="d-block" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="kepek/pollution2.jpg" alt="pollution2" class="d-block" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kepek/pollution3.jpg" alt="pollution3" class="d-block" style="width:100%">
+                            </div>
+                        </div>
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
                     </div>
-                    <!-- The slideshow/carousel -->
-                    <div class="carousel-inner rounded">
-                        <div class="carousel-item">
-                            <img src="kepek/pollution1.jpg" alt="pollution1" class="d-block" style="width:100%">
-                        </div>
-                        <div class="carousel-item active">
-                            <img src="kepek/pollution2.jpg" alt="pollution2" class="d-block" style="width:100%">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="kepek/pollution3.jpg" alt="pollution3" class="d-block" style="width:100%">
-                        </div>
-                    </div>
-                    <!-- Left and right controls/icons -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#demo1"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo1"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
+                    <!-- Carousel ends -->
                 </div>
-                <!-- Carousel ends -->
-            </div>
                 <div class="col-lg-6 text-center">
-                    <p class="text-justify p-3">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste distinctio accusantium expedita.
-                        Minima cupiditate corporis eum delectus harum facere accusamus obcaecati enim, vero quia saepe
-                        odio
-                        quaerat voluptates reiciendis et!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo laboriosam, nihil
-                        pariatur quia perferendis debitis quas sint fugiat cumque id reprehenderit nostrum suscipit qui
-                        reiciendis autem facilis consequatur numquam.
+                    <p class="text-start p-3 pb-0">
+                        A technológia és a környezetvédelem szoros összefonódása nem új keletű jelenség. A bolygónk
+                        védelme és fenntarthatósága egyre inkább a figyelem középpontjába kerül, és az új technológiák
+                        folyamatosan segítenek abban, hogy előrelépést érjünk el ezen a területen. A környezetvédelmi
+                        problémák megoldása átfogó és összetett feladat, amelynek megoldásához szükség van a kormányok,
+                        az ipar és az egyének közös erőfeszítéseire.
+                    </p>
+                    <p class="text-start p-3 pt-0">
+                        Az új technológiák széles skálája segít a környezetvédelem terén. Az energiahatékonysági
+                        technológiák például jelentősen csökkenthetik a szén-dioxid-kibocsátást, csökkentve ezzel a
+                        szennyezés szintjét és javítva a levegőminőséget. Az épületek és otthonok okos otthon
+                        technológiái lehetővé teszik az energiafogyasztás optimalizálását, és hozzájárulnak a
+                        fenntarthatóbb életmód eléréséhez. Az alternatív energiaforrások, például a napenergia, a
+                        szélenergia és a geotermikus energia szintén kulcsszerepet játszanak a környezetvédelemben.
                     </p>
                 </div>
-                
+
             </div>
         </section>
 
         <section id=section-2 class="container-fluid bg-white">
             <div id="section_title">
-                <h2 class="w-100 mt-5">Technológiák</h2>
-                <h3 class="w-100 mx-3">Alcím</h3>
+                <h2 class="display-5 fst-italic w-100 mt-5">Technológiák</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/technology1.jpg" alt="technology1">
+                    <img class="img-fluid rounded" src="kepek/sunenergy.jpg" alt="Napenergia">
                 </div>
                 <div class="col-lg-8 my-4">
                     <!-- ikon -->
                     <i class="fa-brands fa-pagelines fa-2xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Technológia 1</h4>
+                    <h4 class="d-inline p-4">Napenergia</h4>
                     <p class="p-4">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, earum assumenda natus ipsam
-                        incidunt
-                        dolore, cupiditate provident magnam nesciunt voluptatem quo eos laborum velit, facilis odit
-                        impedit
-                        obcaecati excepturi harum!
+                        Az energiatermelés hatékony és fenntartható módja a napenergia felhasználása. Napenergia hasznosításával jelentősen csökkenthető a szén-dioxid-kibocsátás.
                     </p>
                 </div>
             </div>
@@ -134,146 +138,257 @@
             <div class="row">
                 <div class="col-lg-8 my-4">
                     <i class="fa-sharp fa-solid fa-seedling fa-xl" style="color: #00908e;"></i>
-                    <h4 class="d-inline p-4">Technológia 2</h4>
+                    <h4 class="d-inline p-4">Szélenergia</h4>
                     <p class="p-4">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, earum assumenda natus ipsam
-                        incidunt
-                        dolore, cupiditate provident magnam nesciunt voluptatem quo eos laborum velit, facilis odit
-                        impedit
-                        obcaecati excepturi harum!
+                        A szélerőművek használata segít a szén-dioxid-kibocsátás csökkentésében, miközben az energiatermelés hatékony és fenntartható módja.
                     </p>
                 </div>
                 <div class="col-lg-4 my-4">
-                    <img class="img-fluid rounded" src="kepek/technology2.jpg" alt="technology2">
+                    <img class="img-fluid rounded" src="kepek/windenergy.jpg" alt="Szélenergia">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 my-4">
+                    <img class="img-fluid rounded" src="kepek/biogas.jpg" alt="Biogáz">
+                </div>
+                <div class="col-lg-8 my-4">
+                    <!-- ikon -->
+                    <i class="fa-brands fa-pagelines fa-2xl" style="color: #00908e;"></i>
+                    <h4 class="d-inline p-4">Biogáz</h4>
+                    <p class="p-4">
+                        Az organikus hulladékokból előállított biogáz hasznosítása segíti a szerves anyagok újrafelhasználását, és a biogáz használata tiszta és fenntartható energiaforrásként szolgálhat.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 my-4">
+                    <i class="fa-sharp fa-solid fa-seedling fa-xl" style="color: #00908e;"></i>
+                    <h4 class="d-inline p-4">Vízvisszanyerés</h4>
+                    <p class="p-4">
+                        Az ipar és az otthoni felhasználás során keletkező szennyvizek feldolgozása és újrahasznosítása hatékony és környezetbarát megoldás lehet.
+                    </p>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <img class="img-fluid rounded" src="kepek/waterrecycling.jpg.webp" alt="Vízvisszanyerés">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 my-4">
+                    <img class="img-fluid rounded" src="kepek/electriccar01.jpg" alt="Elektromosautó">
+                </div>
+                <div class="col-lg-8 my-4">
+                    <!-- ikon -->
+                    <i class="fa-brands fa-pagelines fa-2xl" style="color: #00908e;"></i>
+                    <h4 class="d-inline p-4">Elektromos autók</h4>
+                    <p class="p-4">
+                        Az elektromos autók használata lehetővé teszi a fosszilis üzemanyagok használatának csökkentését, miközben a csendes és tiszta közlekedést biztosít.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 my-4">
+                    <i class="fa-sharp fa-solid fa-seedling fa-xl" style="color: #00908e;"></i>
+                    <h4 class="d-inline p-4">Okos otthonok</h4>
+                    <p class="p-4">
+                        Az otthonok okos technológiákkal való felszerelése lehetővé teszi az energiafogyasztás optimalizálását és a környezeti hatások minimalizálását, miközben javítja az életminőséget és a kényelmet.
+                    </p>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <img class="img-fluid rounded" src="kepek/smarthome01.jpg" alt="Okosotthon">
                 </div>
             </div>
         </section>
 
-        
+
 
         <section id=section-4 class="container-fluid bg-white">
             <div id="section_title">
                 <h2 class="w-100 my-5">A környezetszennyezés hatása számokban</h2>
             </div>
             <div class="row">
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ab suscipit dignissimos nam quia totam ad architecto nemo maiores accusantium odio, explicabo fugiat ea voluptatem fuga enim animi amet unde?</p>
-              </div>
-              <div class="col">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">#</th>
-                            <th scope="col">#</th>
-                            <th scope="col">#</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ab suscipit dignissimos nam quia
+                        totam ad architecto nemo maiores accusantium odio, explicabo fugiat ea voluptatem fuga enim
+                        animi amet unde?</p>
+                </div>
+                <div class="col">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">#</th>
+                                <th scope="col">#</th>
+                                <th scope="col">#</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
         <section id=section-3 class="container-fluid bg-white">
-          <div id="section_title">
-              <h2 class="w-100 mt-5">De tehetünk ellene</h2>
-              <h3 class="w-100 mx-3">Technológiák a környezetvédelemért</h3>
-          </div>
-          <div id="technologiak" class="row my-3 mx-2">
-              <!-- card starts here -->
-              <div class="col-lg-4 col-md-6 my-2">
-                  <div class="card">
-                      <img src="kepek/lorem1.jpg" class="card-img-top" alt="card_1">
-                      <div class="card-body">
-                          <h5 class="card-title">Lorem 1</h5>
-                          <p class="card-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate
-                              assumenda tempora perspiciatis vitae sunt, si.
-                          </p>
-                          <a href="#" target="_blank" class="btn myButton">Link</a>
-                      </div>
-                  </div>
-              </div>
-              <!-- card ends here -->
-
-              <!-- card starts here -->
-              <div class="col-lg-4 col-md-6 my-2">
-                  <div class="card">
-                      <img src="kepek/lorem2.jpg" class="card-img-top" alt="card_2">
-                      <div class="card-body">
-                          <h5 class="card-title">Lorem 2</h5>
-                          <p class="card-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate
-                              assumenda tempora perspiciatis vitae sunt, si.
-                          </p>
-                          <a href="#" target="_blank" class="btn myButton">Link</a>
-                      </div>
-                  </div>
-              </div>
-              <!-- card ends here -->
-
-              <!-- card starts here -->
-              <div class="col-lg-4 col-md-6 my-2">
-                  <div class="card">
-                      <img src="kepek/lorem3.jpg" class="card-img-top" alt="card_3">
-                      <div class="card-body">
-                          <h5 class="card-title">Lorem 3</h5>
-                          <p class="card-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate
-                              assumenda tempora perspiciatis vitae sunt, si.
-                          </p>
-                          <a href="#" target="_blank" class="btn myButton">Link</a>
-                      </div>
-                  </div>
-              </div>
-              <!-- card ends here -->
-
-          </div>
-      </section>
-        <section id=section-5 class="container-fluid bg-white">
             <div id="section_title">
-                <h2 class="w-100 my-5">Kapcsolat</h2>
+                <h2 class="display-5 fst-italic w-100 mt-5">De <span class="highlight">tehetünk</span> ellene</h2>
+                <h3 class="w-100 mx-3 text-center">Technológiák <span class="highlight">a környezetvédelemért</span>
+                </h3>
+            </div>
+            <div id="technologiak" class="row my-3 mx-2">
+                <!-- card starts here -->
+                <div class="col-lg-4 col-md-6 my-2">
+                    <div class="card">
+                        <img src="kepek/smarthome.jpg" class="card-img-top" alt="card_1">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Intelligens otthon rendszerek</h5>
+                            <p class="card-text">
+                                Az intelligens otthon rendszerek lehetővé teszik a háztartási berendezések és világítás
+                                vezérlését, optimalizálva az energiafogyasztást és csökkentve a szükséges erőforrásokat.
+                            </p>
+                            <a href="#" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card ends here -->
+
+                <!-- card starts here -->
+                <div class="col-lg-4 col-md-6 my-2">
+                    <div class="card">
+                        <img src="kepek/smartcity.jpg" class="card-img-top" alt="card_2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Okos városok</h5>
+                            <p class="card-text">
+                                Az okos városok a technológia és a közösségi tervezés ötvözése révén segítenek
+                                csökkenteni a városi környezetre gyakorolt hatásokat. Az okos városok az épületek,
+                                közlekedési rendszerek és az energiaellátás intelligens kezelését teszik lehetővé, és
+                                segítenek csökkenteni a városi szennyezést és az energiafogyasztást.
+                            </p>
+                            <a href="#" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card ends here -->
+
+                <!-- card starts here -->
+                <div class="col-lg-4 col-md-6 my-2">
+                    <div class="card">
+                        <img src="kepek/greenroof.jpg" class="card-img-top" alt="card_3">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Zöldtetők</h5>
+                            <p class="card-text">
+                                A zöldtetők olyan növényekkel bevont épülettetők, amelyek számos előnyt kínálnak a
+                                környezetnek. A zöldtetők segítenek csökkenteni az épület hőmérsékletét, amely
+                                hozzájárul a klímaváltozás elleni küzdelemhez. Emellett a zöldtetők csökkentik az
+                                épületek energiafogyasztását és javítják az esővíz gyűjtését és szűrését.
+                            </p>
+                            <a href="#" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card ends here -->
+
+                <!-- card starts here -->
+                <div class="col-lg-4 col-md-6 my-2">
+                    <div class="card">
+                        <img src="kepek/electricvehicle.jpg" class="card-img-top" alt="card_3">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Elektromos járművek</h5>
+                            <p class="card-text">
+                                Az elektromos járművek használata jelentős mértékben csökkentheti az üvegházhatású gázok
+                                kibocsátását, és hozzájárulhat a fenntartható közlekedéshez.
+                            </p>
+                            <a href="#" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card ends here -->
+
+                <!-- card starts here -->
+                <div class="col-lg-4 col-md-6 my-2">
+                    <div class="card">
+                        <img src="kepek/droneagriculture.jpg" class="card-img-top" alt="card_3">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Drónok</h5>
+                            <p class="card-text">
+                                Az innovatív technológiák egyre szélesebb körben használatosak a mezőgazdasági iparban,
+                                hogy segítsék a gazdálkodókat a növények hatékonyabb termesztésében. Az egyik ilyen
+                                technológiai újítás a drónok használata a mezőgazdaságban. A drónok sokféle módon
+                                hasznosíthatóak, például a tájékozódásban, a mérési és adatgyűjtési feladatokban,
+                                valamint az agrárszektor környezetvédelmi szempontjainak figyelemmel kísérésében.
+                            </p>
+                            <a href="#" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card ends here -->
+
+                <!-- card starts here -->
+                <div class="col-lg-4 col-md-6 my-2">
+                    <div class="card">
+                        <img src="kepek/sustainablearhitecture.jpg" class="card-img-top" alt="card_3">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">A fenntartható építészet</h5>
+                            <p class="card-text">
+                                A fenntartható építészet egyre nagyobb szerepet kap a modern építészetben. A
+                                fenntartható építészet azon alapul, hogy az épületeket környezettudatosan tervezzék és
+                                építsék meg, és olyan anyagokat használjanak, amelyek nem szennyezik a környezetet.
+                            </p>
+                            <a href="#" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card ends here -->
+
             </div>
         </section>
-<section>
-  
-  <div class="row">
-    <div class="col">
-      <h2>Kérjen visszahívást</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam, doloremque perferendis nemo dolorem qui sunt cupiditate, veritatis culpa molestias aliquid neque ad voluptates, asperiores consequatur voluptas minima minus rem?
-      Dolores sed ducimus excepturi similique rerum aut porro architecto explicabo voluptates. Modi quia excepturi perferendis atque aliquid? Sapiente maiores, a quae quasi necessitatibus error obcaecati beatae temporibus excepturi nemo in.</p>
-    </div>
-    <div class="col">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </div>
-  </div>
-</section>
+        <section id=section-5 class="container-fluid bg-white">
+            <div id="section_title">
+                <h2 class="display-5 fst-italic w-100 mt-5">Kapcsolat</h2>
+            </div>
+        </section>
+        <section>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Kérjen visszahívást</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam, doloremque perferendis nemo
+                        dolorem qui sunt cupiditate, veritatis culpa molestias aliquid neque ad voluptates, asperiores
+                        consequatur voluptas minima minus rem?
+                        Dolores sed ducimus excepturi similique rerum aut porro architecto explicabo voluptates. Modi
+                        quia excepturi perferendis atque aliquid? Sapiente maiores, a quae quasi necessitatibus error
+                        obcaecati beatae temporibus excepturi nemo in.</p>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer starts here -->
