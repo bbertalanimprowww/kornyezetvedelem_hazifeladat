@@ -1,534 +1,490 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Új technológiák a környezetvédelemért</title>
-    <!-- my font awesome kit -->
-    <script
-      src="https://kit.fontawesome.com/3cf0747520.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- google fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Inter"
-    />
-    <!-- Bootstrap css install 5.2.3-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Új technológiák a környezetvédelemért</title>
+  <!-- my font awesome kit -->
+  <script src="https://kit.fontawesome.com/3cf0747520.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
+  <!-- Bootstrap css install 5.2.3-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
 
 
-      <!-- navbar starts here -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid collapse navbar-collapse">
-          <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Kezdőlap</a
-              >
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid collapse navbar-collapse">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Szolgáltatások</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="smarthome.html">Okos otthon</a>
+              </li>
+              <li><a class="dropdown-item" href="smartcity.html">Okos város</a></li>
+              <li><a class="dropdown-item" href="greenroof.html">Zöldtetők</a></li>
+              <li><a class="dropdown-item" href="electricvehicles.html">Elektromos járművek</a></li>
+              <li><a class="dropdown-item" href="drones.html">Drónok</a></li>
+              <li><a class="dropdown-item" href="architecture.html">Építészet</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cegunkrol.html">Cégünkről</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <div class="masthead header-img text-center d-flex justify-content-center p-3">
+      <div class="jumbotron masthead-content">
+        <h1 class="my-2" style="color: #3c4043">'Cég' neve</h1>
+        <h3>Új technológiák a környezetvédelemért</h3>
+        <a class="btn header-btn" style="color: #3c4043" href="#">Link</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id=section-1 class="container-fluid bg-white">
+      <div id="section_title">
+        <h2 class="display-5 w-100 mt-5 text-center">Bevezetés</h2>
+      </div>
+      <div id="bevezetes" class="row">
+        <div class="col-lg-6">
+          <!-- Carousel starts -->
+          <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner rounded">
+              <div class="carousel-item">
+                <img src="kepek/pollution1.jpg" alt="pollution1" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item active">
+                <img src="kepek/pollution2.jpg" alt="pollution2" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="kepek/pollution3.jpg" alt="pollution3" class="d-block" style="width:100%">
+              </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <!-- Carousel ends -->
+        </div>
+        <div class="col-lg-6 text-center">
+          <p class="text-start p-3 pb-0">
+            A technológia és a környezetvédelem szoros összefonódása nem új keletű jelenség. A bolygónk
+            védelme és fenntarthatósága egyre inkább a figyelem középpontjába kerül, és az új technológiák
+            folyamatosan segítenek abban, hogy előrelépést érjünk el ezen a területen. A környezetvédelmi
+            problémák megoldása átfogó és összetett feladat, amelynek megoldásához szükség van a kormányok,
+            az ipar és az egyének közös erőfeszítéseire.
+          </p>
+          <p class="text-start p-3 pt-0">
+            Az új technológiák széles skálája segít a környezetvédelem terén. Az energiahatékonysági
+            technológiák például jelentősen csökkenthetik a szén-dioxid-kibocsátást, csökkentve ezzel a
+            szennyezés szintjét és javítva a levegőminőséget. Az épületek és otthonok okos otthon
+            technológiái lehetővé teszik az energiafogyasztás optimalizálását, és hozzájárulnak a
+            fenntarthatóbb életmód eléréséhez. Az alternatív energiaforrások, például a napenergia, a
+            szélenergia és a geotermikus energia szintén kulcsszerepet játszanak a környezetvédelemben.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="section-2" class="container-fluid bg-white">
+      <div id="section_title">
+        <h2 class="display-5 fst-italic w-100 mt-5"><span class="highlight-warning">Problémák</span></h2>
+        <h3 class="w-100 mx-3 mb-5">Gondok amiket <span class="highlight-warning">a világunkban</span> okoz...</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-4">
+          <img class="img-fluid rounded" src="kepek/rain.jpg" alt="Savas eső" />
+        </div>
+        <div class="col-lg-8 my-4">
+          <!-- ikon -->
+          <i class="fa-solid fa-cloud-showers-heavy fa-2xl i-problems"></i>
+          <h4 class="d-inline p-4">Savas esők</h4>
+          <p class="p-4">
+            A savas esők komoly problémát jelentenek a környezet és az emberi egészség számára is. Amikor a savas
+            anyagok a talajra és a víztestekbe kerülnek, azok károsítják a növényeket és az állatok élőhelyeit. Az erdei
+            talajok savanyodása, valamint az édesvízi és tengeri élővilág pusztulása is bekövetkezhet. Emellett a savas
+            esők hosszú távon az épületek és az infrastruktúra károsodását is okozhatják.
+            Az emberi egészségre gyakorolt hatások is súlyosak lehetnek. A savas esők légszennyezést okoznak, ami a
+            légzőrendszerre káros hatással van, és növelik a tüdő- és szívbetegségek kockázatát is. Emellett a savas
+            esőkben található káros anyagok bekerülhetnek az élelmiszerláncba is, ami szintén egészségügyi problémákat
+            okozhat.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 my-4 section-bg-img">
+          <i class="fa-sharp fa-solid fa-bottle-water fa-2xl i-problems"></i>
+          <h4 class="d-inline p-4">Mikroműanyagok</h4>
+          <p class="p-4">
+            A mikroműanyagok problémája az, hogy ezek az apró darabok könnyen átjutnak az emberi bőrön, belélegezhetőek
+            és lenyelhetőek. A műanyag mikroszemcsék az élelmiszerláncba is bejuthatnak, ha az állatok elfogyasztják
+            azokat, vagy ha a halászati és mezőgazdasági termékeket műanyag szennyeződés éri.
+            Ezek a műanyagdarabok nem bomlanak le, hanem csak a méretük csökken, amikor kitetik őket az időjárásnak és a
+            környezetnek. Ennek eredményeként a mikroműanyagok szennyezik a tengereket, folyókat és tavakat, valamint a
+            talajt és a levegőt is.
+          </p>
+        </div>
+        <div class="col-lg-4 my-4">
+          <img class="img-fluid rounded" src="kepek/plastic.jpg" alt="Mikroműanyagok" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-4">
+          <img class="img-fluid rounded" src="kepek/climatechange.jpg" alt="Klímaváltozás" />
+        </div>
+        <div class="col-lg-8 my-4">
+          <!-- ikon -->
+          <i class="fa-solid fa-temperature-arrow-up fa-2xl i-problems"></i>
+          <h4 class="d-inline p-4">Klímaváltozás</h4>
+          <p class="p-4">
+            A szén-dioxid-kibocsátás, amelyet a fosszilis üzemanyagok elégetése és az ipari tevékenységek okoznak,
+            felgyorsítja a globális klímaváltozást. Az éghajlatváltozás számos hatást eredményez, többek között növekvő
+            hőmérsékletet, tengerszint-emelkedést, szélsőséges időjárási eseményeket, élelmiszerhiányt és vízhiányt.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 my-4">
+          <i class="fa-sharp fa-solid fa-pills fa-2xl i-problems"></i>
+          <h4 class="d-inline p-4">Egészségügyi hatások</h4>
+          <p class="p-4">
+            A légszennyezés, a talajszennyezés és a vízszennyezés negatív hatással lehet az emberek és az állatok
+            egészségére. Az ilyen típusú szennyezés számos betegséget okozhat, például légzőszervi betegségeket,
+            allergiákat, asztmát, rákot és fertőzéseket.
+          </p>
+        </div>
+        <div class="col-lg-4 my-4">
+          <img class="img-fluid rounded" src="kepek/virus.jpg" alt="Vírus" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-4">
+          <img class="img-fluid rounded" src="kepek/deforestation.jpg" alt="Erdőírtás" />
+        </div>
+        <div class="col-lg-8 my-4">
+          <!-- ikon -->
+          <i class="fa-solid fa-tree fa-2xl i-problems"></i>
+          <h4 class="d-inline p-4">Biodiverzitás csökkenése</h4>
+          <p class="p-4">
+            A környezeti szennyezés veszélyezteti a növény- és állatvilág sokféleségét. A szennyezés, az erdőirtás és az
+            élőhelyek pusztítása miatt sok faj veszélybe kerül, és akár kihalás fenyegeti őket.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 my-4">
+          <i class="fa-sharp fa-solid fa-droplet-slash fa-xl i-problems"></i>
+          <h4 class="d-inline p-4">Vízhiány</h4>
+          <p class="p-4">
+            A szennyezett víz, valamint az éghajlatváltozás okozta szélsőséges időjárási események miatt sok helyen nő a
+            vízhiány problémája. Ez kihat a mezőgazdaságra, a városi területekre és az élelmiszertermelésre, valamint az
+            emberek egészségére és életminőségére is.
+          </p>
+        </div>
+        <div class="col-lg-4 my-4">
+          <img class="img-fluid rounded" src="kepek/lackofwater.jpg" alt="Vízhiány" />
+        </div>
+      </div>
+    </section>
+
+    <section id=section-4 class="container-fluid bg-white">
+      <div id="section_title">
+        <h2 class="w-100 my-5">A környezetszennyezés hatása számokban</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ab suscipit dignissimos nam quia
+            totam ad architecto nemo maiores accusantium odio, explicabo fugiat ea voluptatem fuga enim
+            animi amet unde?</p>
+        </div>
+        <div class="col">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">#</th>
+                <th scope="col">#</th>
+                <th scope="col">#</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id=section-3 class="container-fluid bg-white">
+      <div id="section_title">
+        <h2 class="display-5 fst-italic w-100 mt-5">De <span class="highlight">tehetünk</span> ellene</h2>
+        <h3 class="w-100 mx-3 text-center">Technológiák <span class="highlight">a környezetvédelemért</span>
+        </h3>
+      </div>
+      <div id="technologiak" class="row my-3 mx-2">
+        <!-- card starts here -->
+        <div class="col-lg-4 col-md-6 my-2">
+          <div class="card">
+            <img src="kepek/smarthome.jpg" class="card-img-top" alt="card_1">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Intelligens otthon rendszerek</h5>
+              <p class="card-text">
+                Az intelligens otthon rendszerek lehetővé teszik a háztartási berendezések és világítás
+                vezérlését, optimalizálva az energiafogyasztást és csökkentve a szükséges erőforrásokat.
+              </p>
+              <a href="smarthome.html" class="btn card-btn mt-auto">Érdekel</a>
+            </div>
+          </div>
+        </div>
+        <!-- card ends here -->
+
+        <!-- card starts here -->
+        <div class="col-lg-4 col-md-6 my-2">
+          <div class="card">
+            <img src="kepek/smartcity.jpg" class="card-img-top" alt="card_2">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Okos városok</h5>
+              <p class="card-text">
+                Az okos városok a technológia és a közösségi tervezés ötvözése révén segítenek
+                csökkenteni a városi környezetre gyakorolt hatásokat. Az okos városok az épületek,
+                közlekedési rendszerek és az energiaellátás intelligens kezelését teszik lehetővé, és
+                segítenek csökkenteni a városi szennyezést és az energiafogyasztást.
+              </p>
+              <a href="smartcity.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+            </div>
+          </div>
+        </div>
+        <!-- card ends here -->
+
+        <!-- card starts here -->
+        <div class="col-lg-4 col-md-6 my-2">
+          <div class="card">
+            <img src="kepek/greenroof.jpg" class="card-img-top" alt="card_3">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Zöldtetők</h5>
+              <p class="card-text">
+                A zöldtetők olyan növényekkel bevont épülettetők, amelyek számos előnyt kínálnak a
+                környezetnek. A zöldtetők segítenek csökkenteni az épület hőmérsékletét, amely
+                hozzájárul a klímaváltozás elleni küzdelemhez. Emellett a zöldtetők csökkentik az
+                épületek energiafogyasztását és javítják az esővíz gyűjtését és szűrését.
+              </p>
+              <a href="greenroof.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+            </div>
+          </div>
+        </div>
+        <!-- card ends here -->
+
+        <!-- card starts here -->
+        <div class="col-lg-4 col-md-6 my-2">
+          <div class="card">
+            <img src="kepek/electricvehicle.jpg" class="card-img-top" alt="card_3">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Elektromos járművek</h5>
+              <p class="card-text">
+                Az elektromos járművek használata jelentős mértékben csökkentheti az üvegházhatású gázok
+                kibocsátását, és hozzájárulhat a fenntartható közlekedéshez.
+              </p>
+              <a href="electricvehicles.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+            </div>
+          </div>
+        </div>
+        <!-- card ends here -->
+
+        <!-- card starts here -->
+        <div class="col-lg-4 col-md-6 my-2">
+          <div class="card">
+            <img src="kepek/droneagriculture.jpg" class="card-img-top" alt="card_3">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Drónok</h5>
+              <p class="card-text">
+                Az innovatív technológiák egyre szélesebb körben használatosak a mezőgazdasági iparban,
+                hogy segítsék a gazdálkodókat a növények hatékonyabb termesztésében. Az egyik ilyen
+                technológiai újítás a drónok használata a mezőgazdaságban. A drónok sokféle módon
+                hasznosíthatóak, például a tájékozódásban, a mérési és adatgyűjtési feladatokban,
+                valamint az agrárszektor környezetvédelmi szempontjainak figyelemmel kísérésében.
+              </p>
+              <a href="drones.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+            </div>
+          </div>
+        </div>
+        <!-- card ends here -->
+
+        <!-- card starts here -->
+        <div class="col-lg-4 col-md-6 my-2">
+          <div class="card">
+            <img src="kepek/sustainablearhitecture.jpg" class="card-img-top" alt="card_3">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">A fenntartható építészet</h5>
+              <p class="card-text">
+                A fenntartható építészet egyre nagyobb szerepet kap a modern építészetben. A
+                fenntartható építészet azon alapul, hogy az épületeket környezettudatosan tervezzék és
+                építsék meg, és olyan anyagokat használjanak, amelyek nem szennyezik a környezetet.
+              </p>
+              <a href="architecture.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+            </div>
+          </div>
+        </div>
+        <!-- card ends here -->
+
+      </div>
+    </section>
+    <section id=section-5 class="container-fluid bg-white">
+      <div id="section_title">
+        <h2 class="display-5 fst-italic w-100 mt-5">Kapcsolat</h2>
+      </div>
+    </section>
+    <section>
+
+      <div class="row">
+        <div class="col">
+          <h2>Kérjen visszahívást</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam, doloremque perferendis nemo
+            dolorem qui sunt cupiditate, veritatis culpa molestias aliquid neque ad voluptates, asperiores
+            consequatur voluptas minima minus rem?
+            Dolores sed ducimus excepturi similique rerum aut porro architecto explicabo voluptates. Modi
+            quia excepturi perferendis atque aliquid? Sapiente maiores, a quae quasi necessitatibus error
+            obcaecati beatae temporibus excepturi nemo in.</p>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- footer starts here -->
+  <footer class="bg-secondary text-white text-center text-md-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            atque ea quis molestias. Fugiat pariatur maxime quis culpa
+            corporis vitae repudiandae aliquam voluptatem veniam, est atque
+            cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-                >Szolgáltatások</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="smarthome.html">Okos otthon</a>
-                </li>
-                <li><a class="dropdown-item" href="smartcity.html">Okos város</a></li>
-                <li><a class="dropdown-item" href="greenroof.html">Zöldtetők</a></li>
-                <li><a class="dropdown-item" href="electricvehicles.html">Elektromos járművek</a></li>
-                <li><a class="dropdown-item" href="drones.html">Drónok</a></li>
-                <li><a class="dropdown-item" href="architecture.html">Építészet</a></li>
-              </ul>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cegunkrol.html">Cégünkről</a>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
             </li>
           </ul>
         </div>
-      </nav>
-      <!-- navbar ends here -->
+        <!--Grid column-->
 
-      <div
-        class="masthead header-img text-white text-center d-flex justify-content-center p-3"
-      >
-        <div class="jumbotron masthead-content">
-          <h1 class="my-4">'Cég' neve</h1>
-          <h3>Új technológiák a környezetvédelemért</h3>
-          <a class="btn myButton my-2" href="#">Link</a>
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
         </div>
+        <!--Grid column-->
       </div>
-    </header>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
 
-    <main>
-        <section id=section-1 class="container-fluid bg-white">
-            <div id="section_title">
-                <h2 class="display-5 w-100 mt-5 text-center">Bevezetés</h2>
-            </div>
-            <div id="bevezetes" class="row">
-                <div class="col-lg-6">
-                    <!-- Carousel starts -->
-                    <div id="demo1" class="carousel slide" data-bs-ride="carousel">
-                        <!-- Indicators/dots -->
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
-                        </div>
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner rounded">
-                            <div class="carousel-item">
-                                <img src="kepek/pollution1.jpg" alt="pollution1" class="d-block" style="width:100%">
-                            </div>
-                            <div class="carousel-item active">
-                                <img src="kepek/pollution2.jpg" alt="pollution2" class="d-block" style="width:100%">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="kepek/pollution3.jpg" alt="pollution3" class="d-block" style="width:100%">
-                            </div>
-                        </div>
-                        <!-- Left and right controls/icons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#demo1"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#demo1"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                    <!-- Carousel ends -->
-                </div>
-                <div class="col-lg-6 text-center">
-                    <p class="text-start p-3 pb-0">
-                        A technológia és a környezetvédelem szoros összefonódása nem új keletű jelenség. A bolygónk
-                        védelme és fenntarthatósága egyre inkább a figyelem középpontjába kerül, és az új technológiák
-                        folyamatosan segítenek abban, hogy előrelépést érjünk el ezen a területen. A környezetvédelmi
-                        problémák megoldása átfogó és összetett feladat, amelynek megoldásához szükség van a kormányok,
-                        az ipar és az egyének közös erőfeszítéseire.
-                    </p>
-                    <p class="text-start p-3 pt-0">
-                        Az új technológiák széles skálája segít a környezetvédelem terén. Az energiahatékonysági
-                        technológiák például jelentősen csökkenthetik a szén-dioxid-kibocsátást, csökkentve ezzel a
-                        szennyezés szintjét és javítva a levegőminőséget. Az épületek és otthonok okos otthon
-                        technológiái lehetővé teszik az energiafogyasztás optimalizálását, és hozzájárulnak a
-                        fenntarthatóbb életmód eléréséhez. Az alternatív energiaforrások, például a napenergia, a
-                        szélenergia és a geotermikus energia szintén kulcsszerepet játszanak a környezetvédelemben.
-                    </p>
-                </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- footer ends here -->
 
-            </div>
-        </section>
+  <!-- Bootstrap js install 5.2.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-        <section id="section-2" class="container-fluid bg-white">
-            <div id="section_title">
-              <h2 class="display-5 fst-italic w-100 mt-5"><span class="highlight-warning">Problémák</span></h2>
-              <h3 class="w-100 mx-3 mb-5">Gondok amiket <span class="highlight-warning">a világunkban</span> okoz...</h3>
-            </div>
-            <div class="row">
-              <div class="col-lg-4 my-4">
-                <img
-                  class="img-fluid rounded"
-                  src="kepek/rain.jpg"
-                  alt="Savas eső"
-                />
-              </div>
-              <div class="col-lg-8 my-4">
-                <!-- ikon -->
-                <i class="fa-solid fa-cloud-showers-heavy fa-2xl" style="color: #00908e"></i>
-                <h4 class="d-inline p-4">Savas esők</h4>
-                <p class="p-4">
-                    A savas esők komoly problémát jelentenek a környezet és az emberi egészség számára is. Amikor a savas anyagok a talajra és a víztestekbe kerülnek, azok károsítják a növényeket és az állatok élőhelyeit. Az erdei talajok savanyodása, valamint az édesvízi és tengeri élővilág pusztulása is bekövetkezhet. Emellett a savas esők hosszú távon az épületek és az infrastruktúra károsodását is okozhatják.
-                    Az emberi egészségre gyakorolt hatások is súlyosak lehetnek. A savas esők légszennyezést okoznak, ami a légzőrendszerre káros hatással van, és növelik a tüdő- és szívbetegségek kockázatát is. Emellett a savas esőkben található káros anyagok bekerülhetnek az élelmiszerláncba is, ami szintén egészségügyi problémákat okozhat.
-                </p>
-              </div>
-            </div>
-    
-            <div class="row">
-              <div class="col-lg-8 my-4 section-bg-img">
-                <i
-                  class="fa-sharp fa-solid fa-bottle-water fa-2xl"
-                  style="color: #00908e"
-                ></i>
-                <h4 class="d-inline p-4">Mikroműanyagok</h4>
-                <p class="p-4">
-                    A mikroműanyagok problémája az, hogy ezek az apró darabok könnyen átjutnak az emberi bőrön, belélegezhetőek és lenyelhetőek. A műanyag mikroszemcsék az élelmiszerláncba is bejuthatnak, ha az állatok elfogyasztják azokat, vagy ha a halászati és mezőgazdasági termékeket műanyag szennyeződés éri.
-                    Ezek a műanyagdarabok nem bomlanak le, hanem csak a méretük csökken, amikor kitetik őket az időjárásnak és a környezetnek. Ennek eredményeként a mikroműanyagok szennyezik a tengereket, folyókat és tavakat, valamint a talajt és a levegőt is.
-                </p>
-              </div>
-              <div class="col-lg-4 my-4">
-                <img
-                  class="img-fluid rounded"
-                  src="kepek/plastic.jpg"
-                  alt="Mikroműanyagok"
-                />
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 my-4">
-                  <img
-                    class="img-fluid rounded"
-                    src="kepek/climatechange.jpg"
-                    alt="Klímaváltozás"
-                  />
-                </div>
-                <div class="col-lg-8 my-4">
-                  <!-- ikon -->
-                  <i class="fa-solid fa-temperature-arrow-up fa-2xl" style="color: #00908e"></i>
-                  <h4 class="d-inline p-4">Klímaváltozás</h4>
-                  <p class="p-4">
-                    A szén-dioxid-kibocsátás, amelyet a fosszilis üzemanyagok elégetése és az ipari tevékenységek okoznak, felgyorsítja a globális klímaváltozást. Az éghajlatváltozás számos hatást eredményez, többek között növekvő hőmérsékletet, tengerszint-emelkedést, szélsőséges időjárási eseményeket, élelmiszerhiányt és vízhiányt.
-                  </p>
-                </div>
-              </div>
-      
-              <div class="row">
-                <div class="col-lg-8 my-4">
-                  <i
-                    class="fa-sharp fa-solid fa-pills fa-2xl"
-                    style="color: #00908e"
-                  ></i>
-                  <h4 class="d-inline p-4">Egészségügyi hatások</h4>
-                  <p class="p-4">
-                    A légszennyezés, a talajszennyezés és a vízszennyezés negatív hatással lehet az emberek és az állatok egészségére. Az ilyen típusú szennyezés számos betegséget okozhat, például légzőszervi betegségeket, allergiákat, asztmát, rákot és fertőzéseket.
-                  </p>
-                </div>
-                <div class="col-lg-4 my-4">
-                  <img
-                    class="img-fluid rounded"
-                    src="kepek/virus.jpg"
-                    alt="Vírus"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 my-4">
-                  <img
-                    class="img-fluid rounded"
-                    src="kepek/deforestation.jpg"
-                    alt="Erdőírtás"
-                  />
-                </div>
-                <div class="col-lg-8 my-4">
-                  <!-- ikon -->
-                  <i class="fa-solid fa-tree fa-2xl" style="color: #00908e"></i>
-                  <h4 class="d-inline p-4">Biodiverzitás csökkenése</h4>
-                  <p class="p-4">
-                    A környezeti szennyezés veszélyezteti a növény- és állatvilág sokféleségét. A szennyezés, az erdőirtás és az élőhelyek pusztítása miatt sok faj veszélybe kerül, és akár kihalás fenyegeti őket.
-                  </p>
-                </div>
-              </div>
-      
-              <div class="row">
-                <div class="col-lg-8 my-4">
-                  <i
-                    class="fa-sharp fa-solid fa-droplet-slash fa-xl"
-                    style="color: #00908e"
-                  ></i>
-                  <h4 class="d-inline p-4">Vízhiány</h4>
-                  <p class="p-4">
-                    A szennyezett víz, valamint az éghajlatváltozás okozta szélsőséges időjárási események miatt sok helyen nő a vízhiány problémája. Ez kihat a mezőgazdaságra, a városi területekre és az élelmiszertermelésre, valamint az emberek egészségére és életminőségére is.
-                  </p>
-                </div>
-                <div class="col-lg-4 my-4">
-                  <img
-                    class="img-fluid rounded"
-                    src="kepek/lackofwater.jpg"
-                    alt="Vízhiány"
-                  />
-                </div>
-              </div>
-          </section>
-
-        <section id=section-4 class="container-fluid bg-white">
-            <div id="section_title">
-                <h2 class="w-100 my-5">A környezetszennyezés hatása számokban</h2>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ab suscipit dignissimos nam quia
-                        totam ad architecto nemo maiores accusantium odio, explicabo fugiat ea voluptatem fuga enim
-                        animi amet unde?</p>
-                </div>
-                <div class="col">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">#</th>
-                                <th scope="col">#</th>
-                                <th scope="col">#</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <section id=section-3 class="container-fluid bg-white">
-            <div id="section_title">
-                <h2 class="display-5 fst-italic w-100 mt-5">De <span class="highlight">tehetünk</span> ellene</h2>
-                <h3 class="w-100 mx-3 text-center">Technológiák <span class="highlight">a környezetvédelemért</span>
-                </h3>
-            </div>
-            <div id="technologiak" class="row my-3 mx-2">
-                <!-- card starts here -->
-                <div class="col-lg-4 col-md-6 my-2">
-                    <div class="card">
-                        <img src="kepek/smarthome.jpg" class="card-img-top" alt="card_1">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">Intelligens otthon rendszerek</h5>
-                            <p class="card-text">
-                                Az intelligens otthon rendszerek lehetővé teszik a háztartási berendezések és világítás
-                                vezérlését, optimalizálva az energiafogyasztást és csökkentve a szükséges erőforrásokat.
-                            </p>
-                            <a href="smarthome.html" class="btn card-btn mt-auto">Érdekel</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card ends here -->
-
-                <!-- card starts here -->
-                <div class="col-lg-4 col-md-6 my-2">
-                    <div class="card">
-                        <img src="kepek/smartcity.jpg" class="card-img-top" alt="card_2">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">Okos városok</h5>
-                            <p class="card-text">
-                                Az okos városok a technológia és a közösségi tervezés ötvözése révén segítenek
-                                csökkenteni a városi környezetre gyakorolt hatásokat. Az okos városok az épületek,
-                                közlekedési rendszerek és az energiaellátás intelligens kezelését teszik lehetővé, és
-                                segítenek csökkenteni a városi szennyezést és az energiafogyasztást.
-                            </p>
-                            <a href="smartcity.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card ends here -->
-
-                <!-- card starts here -->
-                <div class="col-lg-4 col-md-6 my-2">
-                    <div class="card">
-                        <img src="kepek/greenroof.jpg" class="card-img-top" alt="card_3">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">Zöldtetők</h5>
-                            <p class="card-text">
-                                A zöldtetők olyan növényekkel bevont épülettetők, amelyek számos előnyt kínálnak a
-                                környezetnek. A zöldtetők segítenek csökkenteni az épület hőmérsékletét, amely
-                                hozzájárul a klímaváltozás elleni küzdelemhez. Emellett a zöldtetők csökkentik az
-                                épületek energiafogyasztását és javítják az esővíz gyűjtését és szűrését.
-                            </p>
-                            <a href="greenroof.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card ends here -->
-
-                <!-- card starts here -->
-                <div class="col-lg-4 col-md-6 my-2">
-                    <div class="card">
-                        <img src="kepek/electricvehicle.jpg" class="card-img-top" alt="card_3">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">Elektromos járművek</h5>
-                            <p class="card-text">
-                                Az elektromos járművek használata jelentős mértékben csökkentheti az üvegházhatású gázok
-                                kibocsátását, és hozzájárulhat a fenntartható közlekedéshez.
-                            </p>
-                            <a href="electricvehicles.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card ends here -->
-
-                <!-- card starts here -->
-                <div class="col-lg-4 col-md-6 my-2">
-                    <div class="card">
-                        <img src="kepek/droneagriculture.jpg" class="card-img-top" alt="card_3">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">Drónok</h5>
-                            <p class="card-text">
-                                Az innovatív technológiák egyre szélesebb körben használatosak a mezőgazdasági iparban,
-                                hogy segítsék a gazdálkodókat a növények hatékonyabb termesztésében. Az egyik ilyen
-                                technológiai újítás a drónok használata a mezőgazdaságban. A drónok sokféle módon
-                                hasznosíthatóak, például a tájékozódásban, a mérési és adatgyűjtési feladatokban,
-                                valamint az agrárszektor környezetvédelmi szempontjainak figyelemmel kísérésében.
-                            </p>
-                            <a href="drones.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card ends here -->
-
-                <!-- card starts here -->
-                <div class="col-lg-4 col-md-6 my-2">
-                    <div class="card">
-                        <img src="kepek/sustainablearhitecture.jpg" class="card-img-top" alt="card_3">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">A fenntartható építészet</h5>
-                            <p class="card-text">
-                                A fenntartható építészet egyre nagyobb szerepet kap a modern építészetben. A
-                                fenntartható építészet azon alapul, hogy az épületeket környezettudatosan tervezzék és
-                                építsék meg, és olyan anyagokat használjanak, amelyek nem szennyezik a környezetet.
-                            </p>
-                            <a href="architecture.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card ends here -->
-
-            </div>
-        </section>
-        <section id=section-5 class="container-fluid bg-white">
-            <div id="section_title">
-                <h2 class="display-5 fst-italic w-100 mt-5">Kapcsolat</h2>
-            </div>
-        </section>
-        <section>
-
-            <div class="row">
-                <div class="col">
-                    <h2>Kérjen visszahívást</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam, doloremque perferendis nemo
-                        dolorem qui sunt cupiditate, veritatis culpa molestias aliquid neque ad voluptates, asperiores
-                        consequatur voluptas minima minus rem?
-                        Dolores sed ducimus excepturi similique rerum aut porro architecto explicabo voluptates. Modi
-                        quia excepturi perferendis atque aliquid? Sapiente maiores, a quae quasi necessitatibus error
-                        obcaecati beatae temporibus excepturi nemo in.</p>
-                </div>
-                <div class="col">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- footer starts here -->
-    <section class="">
-      <!-- Footer -->
-      <footer class="bg-secondary text-white text-center text-md-start">
-        <!-- Grid container -->
-        <div class="container p-4">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer Content</h5>
-
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-                atque ea quis molestias. Fugiat pariatur maxime quis culpa
-                corporis vitae repudiandae aliquam voluptatem veniam, est atque
-                cumque eum delectus sint!
-              </p>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="text-white">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div
-          class="text-center p-3"
-          style="background-color: rgba(0, 0, 0, 0.2)"
-        >
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/"
-            >MDBootstrap.com</a
-          >
-        </div>
-        <!-- Copyright -->
-      </footer>
-      <!-- Footer -->
-    </section>
-    <!-- footer ends here -->
-
-    <!-- Bootstrap js install 5.2.3 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>

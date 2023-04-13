@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #5ec576;
+    --color-primary: #68996c;
     --color-primary-darker: #4bbb7d;
   }
 
@@ -20,7 +20,7 @@ body {
 main {
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 90%;
 }
 
 .header-img {
@@ -78,8 +78,8 @@ main {
 .highlight-warning {
     opacity: 90%;
     padding: 8px;
-    background: linear-gradient(to top left, #9d0303, #f08585);
-    color: white;
+    background: linear-gradient(to top left, #68996c, #c3d5ad);
+    color: #3c4043;
 }
 
 .card {
@@ -87,23 +87,29 @@ main {
 }
 
 .card-btn {
-    box-shadow: 5px 10px 11px -8px #276873;
-    background: var(--color-primary);
-    background-color: var(--color-primary);
+    box-shadow: 8px 12px 11px -8px #4e5855;
+    background: linear-gradient(to bottom, #72cc81 5%, #4dbb91 100%);
+    background-color: #72cc81;
     border-radius: 15px;
     display: inline-block;
     cursor: pointer;
-    color: #000000;
-    font-family: 'Inter', serif;
+    color: #3c4043;
+    font-family: 'Inter';
     font-size: 16px;
-    padding: 9px 18px;
+    padding: 8px 15px;
     text-decoration: none;
-    text-shadow: 2px 2px 1px #3faa6f;
+    text-shadow: 1px 0px 1px #4e5855;
 }
 
 .card-btn:hover {
-    background: var(--color-primary-darker);
-    background-color: var(--color-primary-darker);
+    background: linear-gradient(to bottom, #4dbb91 5%, #72cc81 100%);
+    background-color: #4dbb91;
+}
+
+.card-btn:active {
+    position: relative;
+    top: 1px;
+    border: none;
 }
 
 .card:hover {
@@ -114,26 +120,6 @@ main {
 .smart-card h5 {
     text-align: center;
     text-transform: uppercase;
-}
-
-.myButton {
-    box-shadow: 5px 10px 11px -8px #276873;
-    background: var(--color-primary);
-    background-color: var(--color-primary);
-    border-radius: 15px;
-    display: inline-block;
-    cursor: pointer;
-    color: #000000;
-    font-family: 'Inter', serif;
-    font-size: 16px;
-    padding: 9px 18px;
-    text-decoration: none;
-    text-shadow: 2px 2px 1px #3faa6f;
-}
-
-.myButton:hover {
-    background: var(--color-primary-darker);
-    background-color: var(--color-primary-darker);
 }
 
 footer li {
@@ -147,3 +133,99 @@ footer a {
     font-family: 'Inter', serif;
 }
 
+/**********************************************************************************************/
+/* DESIGN STYLE */
+
+/* Color palette
+    color: #95bd73;
+    color: #b1c695;
+    color: #09ab3d;
+    color: #55b231;
+    color: #04a40d;
+    color: #76ad14;
+    color: #9ddaaa;
+    color: #5cc477;
+    color: #04a40d;
+*/
+
+/* Headlines */
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 76px;
+    color: white;
+    letter-spacing: normal;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    color: #3c4043;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 44px;
+    color: #3c4043;
+    letter-spacing: normal;
+}
+
+h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3c4043;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3c4043;
+    text-align: left;
+    letter-spacing: normal;
+    margin: 20px;
+}
+
+/* Button, link */
+
+.header-btn {
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+}
+
+/* Icon color */
+i {
+    color: #39b385;
+}
+
+.i-problems {
+    color: #68996c;
+}
+
+.smart-card {
+    margin-top: 30px;
+}
