@@ -35,6 +35,36 @@ main {
     background-position: center;
 }
 
+.smartcity-header-img {
+    background-image: url(../kepek/smartcity/smart-city-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.greenroof-header-img {
+    background-image: url(../kepek/greenroof/greenroof-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.electricvehicles-header-img {
+    background-image: url(../kepek/electricvehicles/electricvehicle-header.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.drones-header-img {
+    background-image: url(../kepek/drones/drone-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.architecture-header-img {
+    background-image: url(../kepek/architecture/architecture-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .jumbotron>h1 {
     text-shadow: 0px 0px 30px black;
 }
