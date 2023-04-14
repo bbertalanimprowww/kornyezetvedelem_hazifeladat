@@ -20,7 +20,7 @@ body {
 main {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 85%;
 }
 
 .header-img {
@@ -86,6 +86,10 @@ main {
     height: 100%;
 }
 
+.card-text {
+    text-align: left;
+}
+
 .card-btn {
     box-shadow: 8px 12px 11px -8px #4e5855;
     background: linear-gradient(to bottom, #72cc81 5%, #4dbb91 100%);
@@ -128,7 +132,7 @@ footer li {
     padding: 5px;
 }
 
-footer a {
+ footer a {
     text-decoration: none;
     font-family: 'Inter', serif;
     color: rgba(180, 177, 177, 0.6);
@@ -151,6 +155,20 @@ footer {
     padding: 0 50px 0 0;
 }
 
+td a {
+    text-decoration: none;
+    font-family: 'Inter', serif;
+    color: rgba(180, 177, 177, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+td a:hover {
+    color: black;
+}
 /**********************************************************************************************/
 /* DESIGN STYLE */
 
@@ -216,7 +234,7 @@ h6 {
     font-size: 16px;
     line-height: 27px;
     color: #3c4043;
-    text-align: center;
+    text-align: left;
     letter-spacing: normal;
 }
             
@@ -229,6 +247,7 @@ p {
     color: #3c4043;
     text-align: left;
     letter-spacing: normal;
+    padding: 10px;
 }
 
 /* Icon color */
@@ -246,4 +265,16 @@ i {
 
 .smart-card {
     margin-top: 30px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(104, 153, 108, 0.3);
+}
+
+.div-height-big {
+    height: 20%;
+}
+
+.div-height-small {
+    height: 15%;
 }
