@@ -376,7 +376,7 @@
                 városokban a technológiai fejlesztések segítségével a városi élet könnyebb, biztonságosabb és
                 fenntarthatóbb lehet.
               </p>
-              <a href="smartcity.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+              <a href="smartcity.html" class="btn card-btn mt-auto">Érdekel</a>
             </div>
           </div>
         </div>
@@ -395,7 +395,7 @@
                 növényekkel borítanak, vagy intenzív, amelyek nagyobb, fákra is alkalmas növényeket tartalmaznak, és
                 akár használhatóak is.
               </p>
-              <a href="greenroof.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+              <a href="greenroof.html" class="btn card-btn mt-auto">Érdekel</a>
             </div>
           </div>
         </div>
@@ -414,7 +414,7 @@
                 üzemanyag-fogyasztó járművekkel szemben, csökkentik a légszennyezést és zajszennyezést, és hozzájárulnak
                 a klímaváltozás elleni küzdelemhez.
               </p>
-              <a href="electricvehicles.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+              <a href="electricvehicles.html" class="btn card-btn mt-auto">Érdekel</a>
             </div>
           </div>
         </div>
@@ -433,7 +433,7 @@
                 előnyei közé tartozik a magasabb hatékonyság, a jobb költséghatékonyság és a biztonsági előnyök, de a
                 drónok alkalmazásának jogi és etikai kérdései is vannak.
               </p>
-              <a href="drones.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+              <a href="drones.html" class="btn card-btn mt-auto">Érdekel</a>
             </div>
           </div>
         </div>
@@ -453,7 +453,7 @@
                 karbonlábnyom, stb. A fenntartható építészet egyre fontosabbá válik a
                 klímaváltozás és a fenntarthatóság miatt.
               </p>
-              <a href="architecture.html" target="_blank" class="btn card-btn mt-auto">Érdekel</a>
+              <a href="architecture.html" class="btn card-btn mt-auto">Érdekel</a>
             </div>
           </div>
         </div>
@@ -465,7 +465,8 @@
 
       <div class="row">
         <div class="col-lg-5 col-md-4 p-3">
-          <div id="sect fst-italic w-100 mt-5"></h2>
+          <div id="sect fst-italic w-100 mt-5">
+            </h2>
             <h2>Kérjen visszahívást</h2>
           </div>
           <p>
@@ -477,18 +478,39 @@
           </p>
         </div>
         <div class="col-lg-7 col-md-8 p-3">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">E-mail cím</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nev@gmail.com" />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label">Telefonszám</label>
-            <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="+36305669212" />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Kérem ide írja megjegyzését!</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+          <form action="" method="POST">
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail cím*</label>
+              <input type="email" class="form-control" id="email" placeholder="nev@gmail.com" required />
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Telefonszám*</label>
+              <input type="tel" class="form-control" id="phone" placeholder="+36305669212"
+                pattern="[+]{1}[0-9]{11}" required />
+            </div>
+            <div class="mb-3">
+              <label for="select" class="form-label">Melyik szolgáltatásunk felől érdeklődik?* (Több is
+                lehetséges!)</label>
+              <select class="form-select" id="select" size="6" multiple aria-label="multiple select example" required>
+                <option value="1">Okos otthon</option>
+                <option value="2">Okos város</option>
+                <option value="3">Zöldtető</option>
+                <option value="4">Elektromos járművek</option>
+                <option value="5">Drónok</option>
+                <option value="6">Fenntartható építészet</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="comment" class="form-label">Kérem ide írja megjegyzését!</label>
+              <textarea class="form-control" id="comment" rows="3" placeholder="max. 250 karakter"
+                maxlength="250"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="accept" required>
+              <label class="form-check-label" for="accept">Elfogadom az adatkezelési tájékoztatót!</label>
+            </div>
+            <button type="submit" class="card-btn">Küldés</button>
+          </form>
         </div>
       </div>
     </section>

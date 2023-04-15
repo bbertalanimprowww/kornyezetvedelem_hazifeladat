@@ -141,6 +141,10 @@ main {
     text-transform: uppercase;
 }
 
+form label {
+    color: var(--color-primary);
+}
+
 footer li {
     display: block;
     list-style-type: none;
