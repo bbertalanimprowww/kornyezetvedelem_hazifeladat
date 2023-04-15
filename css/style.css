@@ -13,8 +13,15 @@ body {
 }
 
 .nav-item a:hover{
-    color: var(--color-primary-darker);
-    border: #276873;
+    color: black;
+    background-color: var(--color-primary-darker);
+    border-radius: 10px;
+}
+
+li .active {
+    background-color: var(--color-primary);
+    color: black;
+    border-radius: 10px;
 }
 
 main {
@@ -23,11 +30,11 @@ main {
     width: 85%;
 }
 
-.header-img {
-    background-image: url(../kepek/header.jpg);
+.header-video {
+    background-image: url(../video/world.mp4);
     background-size: cover;
     background-position: center;
-}
+}  
 
 .smarthome-header-img {
     background-image: url(../kepek/voicecontrol.jpg);
@@ -61,6 +68,12 @@ main {
 
 .architecture-header-img {
     background-image: url(../kepek/architecture/architecture-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.our-header-img {
+    background-image: url(../kepek/our-header.jpg);
     background-size: cover;
     background-position: center;
 }
