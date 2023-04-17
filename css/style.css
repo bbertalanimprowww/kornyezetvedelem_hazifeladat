@@ -14,7 +14,7 @@ body {
 
 .nav-item a:hover{
     color: black;
-    background-color: var(--color-primary-darker);
+    color: var(--color-primary-darker);
     border-radius: 10px;
 }
 
@@ -31,7 +31,7 @@ main {
 }
 
 .header-video {
-    background-image: url(../video/world.mp4);
+    background: url(../video/world.mp4);
     background-size: cover;
     background-position: center;
 }  
