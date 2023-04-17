@@ -1,18 +1,18 @@
 :root {
     --color-primary: #68996c;
     --color-primary-darker: #4bbb7d;
-  }
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav-item a{
+.nav-item a {
     color: var(--color-primary);
     text-transform: uppercase;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: black;
     color: var(--color-primary-darker);
     border-radius: 10px;
@@ -31,10 +31,18 @@ main {
 }
 
 .header-video {
-    background: url(../video/world.mp4);
-    background-size: cover;
-    background-position: center;
-}  
+    overflow: hidden;
+    height: 22rem;
+}
+
+.header-text {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
 
 .smarthome-header-img {
     background-image: url(../kepek/voicecontrol.jpg);
@@ -78,7 +86,9 @@ main {
     background-position: center;
 }
 
-.jumbotron {min-height: 25vw;}
+.jumbotron {
+    min-height: 25vw;
+}
 
 .jumbotron>h1 {
     text-shadow: 0px 0px 30px black;
@@ -151,9 +161,10 @@ footer li {
     padding: 5px;
 }
 
- footer a {
+footer a {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;    color: rgba(180, 177, 177, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(180, 177, 177, 0.6);
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -175,7 +186,8 @@ footer {
 
 td a {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;    color: rgba(180, 177, 177, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(180, 177, 177, 0.6);
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -186,6 +198,7 @@ td a {
 td a:hover {
     color: black;
 }
+
 /**********************************************************************************************/
 /* DESIGN STYLE */
 
@@ -204,7 +217,8 @@ td a:hover {
 /* Headlines */
 
 h1 {
-    font-family: 'Montserrat', sans-serif;    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 76px;
@@ -213,7 +227,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 65px;
@@ -222,7 +237,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 21px;
     line-height: 44px;
@@ -231,7 +247,8 @@ h3 {
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif;    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 21px;
     line-height: 44px;
@@ -240,7 +257,8 @@ h4 {
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif;    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
     line-height: 35px;
@@ -250,7 +268,8 @@ h5 {
 }
 
 h6 {
-    font-family: 'Montserrat', sans-serif;    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 27px;
@@ -258,9 +277,10 @@ h6 {
     text-align: left;
     letter-spacing: normal;
 }
-            
+
 p {
-    font-family: 'Montserrat', sans-serif;    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
