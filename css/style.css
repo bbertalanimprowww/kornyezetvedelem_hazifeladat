@@ -311,10 +311,10 @@ table tr:nth-child(even) {
     background-color: rgba(104, 153, 108, 0.3);
 }
 
-.div-height-big {
+/* .div-height-big {
     height: 20%;
 }
 
 .div-height-small {
     height: 15%;
-}
+} */
